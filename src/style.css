@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.row {
+    display: flex;
+}
+.col-3 {
+    max-width: 33.33333%;
+    flex: 0 0 33.33333%;
+}
