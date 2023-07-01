@@ -1,7 +1,7 @@
 import ProductListItem from "./ProductListItem";
 import productArray from "../utils/productsArray";
 import "./ProductList.scss";
-import { Currency, Product } from "../utils/productsArray";
+import { Currency } from "../utils/productsArray";
 
 interface ProductListProps {
   currency: string;
